@@ -36,7 +36,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
    * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
 * TYPOSCRIPT in 45 Minutes is fine way to play around with 
    * http://docs.typo3.org/TYPO3/TyposcriptIn45MinutesTutorial/
-* Make a decision if you want to go the fluidypo3 way or go with Typoscript. Once you have chosen Typoscript print this and sleep on it. Perhaps it finds the way to your brain. 
+* Make a decision if you want to go the FLUIDTYPO3 way or go with Typoscript. Once you have chosen Typoscript print this and sleep on it. Perhaps it finds the way to your brain. 
   * http://docs.typo3.org/typo3cms/TyposcriptReference/singlehtml/
  
 ### Templating
@@ -47,10 +47,11 @@ Especially choosing fluidtypo3 for templating and for logics is highly recommend
 
 ### Sometimes mentioned - here clarified
 
-- ** Fluidtypo3 (former Fedext) and Gridelements** 
+- **Fluidtypo3 (former Fedext) and Gridelements** 
    work great together - There´s no need for fedext vs. gridelements - but you should make a decision :-) mine is fluidtypo3 due the fact of more ground control.
-- ** Should I start with the latest TYPO3 or with the latest LTS Version?   
+- **Should I start with the latest TYPO3 or with the latest LTS Version?**   
   * It's up to you. Both are stable but the LTS has a core which will remain longer the same.
+
 ### Pitfalls
 
 This section has to be done one day. Here just the topics that are taken into account:
