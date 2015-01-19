@@ -1,5 +1,6 @@
 #How to start with TYPO3 CMS in 2015
-6.x Versions mentioned. Based on personal experience.
+* 6.x Versions mentioned. Based on personal experience
+* Still valid for 7.0
  
 ## Prerequisites
 
