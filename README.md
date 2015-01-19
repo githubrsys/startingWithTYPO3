@@ -9,7 +9,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
  
 ## Keep it in mind
 
-* If you are new to TYPO3 keep on going but don´t get disappointed if things take long time. TYPO3 has a huge learning curve but gives you a dramatically big universe in content management. 
+* If you are new to TYPO3 keep on going but don´t get disappointed if things take long time. TYPO3 has a huge learning curve, but gives you a dramatically big, flexible and quite secure universe in content management. 
  
 * A lot of stuff you read can be outdated. **Keep always verifying** that you read the **latest** information, howtos and snippets and that they **match** your usecase / TYPO3 Version. 
  
@@ -19,7 +19,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
 
 * A fully qualified IDE -> see Tools section
 * Get familar with git and it's usage. Versioncontrol of your code is a big help in any case at any stage
-* I recommend you to write **ALWAYS ANY** code in you own providerextension -> See "extensions section" -> builder
+* I recommend you to write **ALWAYS ANY** code in your own providerextension -> See "extensions section" -> builder
 
  
 ## Getting into it
