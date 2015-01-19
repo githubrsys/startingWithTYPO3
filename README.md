@@ -24,6 +24,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
  
 ## Getting into it
 
+* If you know nothing http://docs.typo3.org/typo3cms/GettingStartedTutorial
 * Build your environment. See "Other resources" Section in this document
 * Start fiddeling around with TYPOSCRIPT and FLUID
 * If you come to the point of markers mentioned anywhere - read it but don´t use it. Go to FLUID.
