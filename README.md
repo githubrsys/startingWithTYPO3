@@ -130,3 +130,7 @@ http://get.typo3.org/
 
 ### Thanks
 - to cedricziel, kraftb, NamelessCoder and many others
+
+### Contribution
+Highly welcome
+
