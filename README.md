@@ -84,7 +84,7 @@ http://forge.typo3.org/projects
 
 * **IRC Client** 
 https://hexchat.github.io/ is an example. There are plenty of out there
- * **IDE Editor** 
+* **IDE Editor** 
 https://www.jetbrains.com/phpstorm/ is an example. There are plenty of out there. **Highly recommended**
 
 ### Documentations
