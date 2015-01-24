@@ -27,8 +27,9 @@ If you dig into TYPO3 you need a lot of time to understand it.
 
 * If you know nothing http://docs.typo3.org/typo3cms/GettingStartedTutorial
 * Build your environment. See "Other resources" Section in this document
+* Get familar with git and github. It's a versioning system and let's you dive into coderevisions with ease
 * Start fiddeling around with TYPOSCRIPT and FLUID
-* If you come to the point of markers mentioned anywhere - read it but don´t use it. Go to FLUID.
+* If you come to the point of markers mentioned anywhere - read it but don´t use it. Go to FLUID
 * If you are interested in programming, go with extbase + FLUID 
    * http://vosp.info/index.php/Typo3_Extensions_entwickeln
    * http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/
