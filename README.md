@@ -50,7 +50,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
     * Webserver -> see section [Other resources](#user-content-other-resources)
     * DB Server -> see section [Other resources](#user-content-other-resources)
     * IDE -> see section [Tools](#user-content-tools) IDE Editor
-7. Get familar with git and [github](http://github.com) [definition](http://wikipedia.org/wiki/GitHub) and [gist](http://gist.github.com) [definition](http://en.wikipedia.org/wiki/GitHub#Gist)
+7. Get familar with [git](http://rogerdudler.github.io/git-guide/index.html) and [github](http://github.com) [definition](http://wikipedia.org/wiki/GitHub) and [gist](http://gist.github.com) [definition](http://en.wikipedia.org/wiki/GitHub#Gist)
 8. Providerextension - I recommend you to write **ALWAYS ANY** code in such a -> See section [extensions](#user-content-extensions) -> ext:builder
 9. Start fiddeling around with TYPOSCRIPT and FLUID
     * If you come to a point where markers are mentioned like ``###marker###`` - read it but don´t use it. Go to FLUID
