@@ -103,24 +103,24 @@ If you have a question there are plenty of resources -> see section [help](#user
 
 > **tl;dr** 
 > ### WwwwwP 
-> What is your environment, What do you want to achieve, What did you do, What do you expect, What do you get. **P**rovide a [gist](https://gist.github.com/)
+> **W**hat is your environment, **w**hat do you want to achieve, **w**hat did you do, **w**hat do you expect, **w**hat do you get. **P**rovide a [gist](https://gist.github.com/)
 
-*  #### What is your environment 
+*  **What is your environment** 
     * Tell us what TYPO3 Version
     * Which extensions and versions do you use
     * Where is your code nested in
     * Server environment if necessary
-* #### What do you want to achieve
+* **What do you want to achieve**
     * Tell us what you want to have in the end. 
     * Needed to determine if you are on the right track.
-* #### What did you do
+* **What did you do**
     * Tell us what did you do and why.
     * In some circumstances this can also be understood as "how to reproduce" your actual behaviour
-* #### What do you expect
+* **What do you expect**
     * Tell us what do you expect
-* #### What do you get
+* **What do you get**
     * Tell us what do you get
-* #### **P**rovide a [gist](https://gist.github.com/)
+* **Provide a [gist](https://gist.github.com/)**
     * Show us your code. Everything else is digging in the dark -mostly.
     * Copy and paste your original code to avoid typos. 
     * Break down code to a minimum working example if you are asked to or if your problem relies on a principle that you do not understand
