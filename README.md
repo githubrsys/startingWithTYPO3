@@ -52,11 +52,11 @@ If you dig into TYPO3 you need a lot of time to understand it.
 6. Get familar with git and [github](http://github.com) [definition](http://wikipedia.org/wiki/GitHub) and [gist](http://gist.github.com) [definition](http://en.wikipedia.org/wiki/GitHub#Gist)
 7. Providerextension - I recommend you to write **ALWAYS ANY** code in such a -> See section [extensions](#user-content-extensions) -> ext:builder
 8. Start fiddeling around with TYPOSCRIPT and FLUID
-9. If you come to the point of markers mentioned anywhere - read it but don´t use it. Go to FLUID
+    9. If you come to the point of markers mentioned anywhere - read it but don´t use it. Go to FLUID
 10. If you install extensions from [TER](http://typo3.org/extensions/repository/), try to use extbase versions as often as possible. Determinable as a rule of thumb: If extension has compatibility prior to 6.x TYPO3 Versions the possiblity is quite high that it does not rely on extbase. 
-11. You should always know what has happended in the last versions of the cms to avoid issues with outdated documentations http://typo3.org/download/release-notes/whats-new/
-12. You should always know what has happened in the last versions of extensions that you use. Several locations do give advice. [git/forge/TER/individual location] -> Depends on the extension, just find out.
 
+* You should always know what has happended in the last versions of the cms to avoid issues with outdated documentations http://typo3.org/download/release-notes/whats-new/
+* You should always know what has happened in the last versions of extensions that you use. Several locations do give advice. [git/forge/TER/individual location] -> Depends on the extension, just find out.
 * This is what you need as bookmark for TYPOSCRIPT in any case 
    * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
 * TYPOSCRIPT in 45 Minutes is fine way to play around with 
