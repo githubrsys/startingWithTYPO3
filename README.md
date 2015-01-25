@@ -228,3 +228,5 @@ https://git.typo3.org/Packages/TYPO3.CMS.git
 ### Contribution
 Highly welcome
 
+### This site is published
+http://githubrsys.github.io/startingWithTYPO3
