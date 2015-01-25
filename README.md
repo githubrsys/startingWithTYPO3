@@ -34,24 +34,28 @@ If you dig into TYPO3 you need a lot of time to understand it.
  
 ## Getting into it
 
-* If you know nothing http://docs.typo3.org/typo3cms/GettingStartedTutorial
-* Build your environment. See "Other resources" Section in this document
-* Get familar with git and github. It's a versioning system and let's you dive into coderevisions with ease
-* Start fiddeling around with TYPOSCRIPT and FLUID
-* If you come to the point of markers mentioned anywhere - read it but don´t use it. Go to FLUID
-* If you are interested in programming, go with extbase + FLUID 
-   * http://vosp.info/index.php/Typo3_Extensions_entwickeln
-   * http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/
-* If you install extensions, try to use extbase Versions as often as possible
-* You should always know what has happended in the last versions of the cms to avoid issues with outdated documentations http://typo3.org/download/release-notes/whats-new/
-* You should always know what has happened in the last versions of extensions that you use. Several locations do give advice. [git/forge/TER/individual location] -> Depends on the extension, just find out.
+1. If you know nothing http://docs.typo3.org/typo3cms/GettingStartedTutorial
+2. Build your environment
+    * Webserver -> see section [Other resources](#user-content-other-resources)
+    * DB Server -> see section [Other resources](#user-content-other-resources)
+    * IDE -> see section [Resources](#user-content-resources)
+3. Get familar with git and github. It's a versioning system and let's you dive into coderevisions with ease
+4. Start fiddeling around with TYPOSCRIPT and FLUID
+5. If you come to the point of markers mentioned anywhere - read it but don´t use it. Go to FLUID
+6. If you install extensions, try to use extbase Versions as often as possible
+7. You should always know what has happended in the last versions of the cms to avoid issues with outdated documentations http://typo3.org/download/release-notes/whats-new/
+8. You should always know what has happened in the last versions of extensions that you use. Several locations do give advice. [git/forge/TER/individual location] -> Depends on the extension, just find out.
+
 * This is what you need as bookmark for TYPOSCRIPT in any case 
    * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
 * TYPOSCRIPT in 45 Minutes is fine way to play around with 
    * http://docs.typo3.org/TYPO3/TyposcriptIn45MinutesTutorial/
 * Make a decision if you want to go the FLUIDTYPO3 way, go with TYPOSCRIPT only or if you want to use both. Once you have chosen TYPOSCRIPT -> print this and sleep on it. Perhaps it finds the way to your brain. 
   * http://docs.typo3.org/typo3cms/TyposcriptReference/singlehtml/
- 
+* If you are interested in programming, go with extbase + FLUID 
+   * http://vosp.info/index.php/Typo3_Extensions_entwickeln
+   * http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/
+    
 ### Templating
  
 There a a lot of different templating methods and systems in TYPO3. These days FLUID is the recommended way. It´s extremely powerful and gives you great flexibility. Forget what you ever heard. If someone sais "fluid is odd" - this person has no idea of it´s capabilities and what benefits it is giving to you.
