@@ -29,7 +29,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
 
 * A fully qualified IDE -> see [Tools](#user-content-tools) section
 * Get familar with git and it's usage. Versioncontrol of your code is a big help in any case at any stage
-* I recommend you to write **ALWAYS ANY** code in your own providerextension -> See "extensions section" -> ext:builder
+* I recommend you to write **ALWAYS ANY** code in your own providerextension -> See section [extensions](#user-content-extensions) -> ext:builder
 
  
 ## Getting into it
@@ -49,7 +49,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
    * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
 * TYPOSCRIPT in 45 Minutes is fine way to play around with 
    * http://docs.typo3.org/TYPO3/TyposcriptIn45MinutesTutorial/
-* Make a decision if you want to go the FLUIDTYPO3 way or go with Typoscript. Once you have chosen Typoscript print this and sleep on it. Perhaps it finds the way to your brain. 
+* Make a decision if you want to go the FLUIDTYPO3 way, go with TYPOSCRIPT only or if you want to use both. Once you have chosen TYPOSCRIPT -> print this and sleep on it. Perhaps it finds the way to your brain. 
   * http://docs.typo3.org/typo3cms/TyposcriptReference/singlehtml/
  
 ### Templating
@@ -60,20 +60,26 @@ Especially choosing fluidtypo3 for templating and for logics is highly recommend
 
 ### Sometimes mentioned - here clarified
 
-- **Fluidtypo3 (former Fedext) and Gridelements** 
+- **FLUIDTYPO3 (former fedext) and ext:gridelements** 
    work great together - There´s no need for fedext vs. gridelements - but you should make a decision :-) mine is fluidtypo3 due the fact of more ground control.
-- **Should I start with the latest TYPO3 or with the latest LTS Version?**   
-  * It's up to you. Both are stable but the LTS has a core which will remain longer the same.
+- **Should I start with the latest TYPO3 SPRINT or with the latest TYPO3 LTS Version?**   
+  * It's up to you. Both are stable but the LTS has a core which will remain longer the same. The SPRINT Version has always the latest changes in core
+- **Is templavoila for templating an option?**
+  * IMHO not. It was once a smart approach for templating which is outdated by now. It's still kept "working" but in the end there's no active feature devolopment anymore. If you think that you need a GUI with "Point and Click" for templating then honestly you should consider changing your job
+
+### What is....
 - **What is TYPOSCRIPT**
   * Read this: http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/AppendixA/Index.html
 - **Is TYPOSCRIPT mandatory**
-  * No. But you are good advised to know the principles as every extension uses it more or less. If you decide to avoid TYPOSCRIPT you can use ext:fcc and ext:vhs to reach your goals.
+  * No. But you are good advised to know the principles as every extension uses it more or less. If you decide to avoid TYPOSCRIPT you can use ext:fcc and ext:vhs to reach your goals. And plain extbase programming of course.
 - **What is FLUIDTYPO3**
   * FLUIDTYPO3 is a set of extensions that give you handy tools for developing and templating based on fluid and extbase. See section extensions in this document.
 - **What is FLUID**
   * Is the recommended templating engine of TYPO3. It's not mandatory but nearly every new extension of typo3 relies on that. So you are good advised to use it.
 - **What is the difference of FLUID and FLUIDTYPO3**
   * See above. FLUIDTYPO3 is a set of extensions that heavily use FLUID as templatingengine and extbase as logic processor.
+- **What is extbase**
+  * Read this http://docs.typo3.org/typo3cms/ExtbaseGuide/Extbase/Index.html
 
 
 ### Pitfalls
