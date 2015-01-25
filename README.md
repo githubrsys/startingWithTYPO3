@@ -206,7 +206,7 @@ https://www.vagrantup.com/ is a tool for installing a complete preconfigured vir
 https://bitnami.com/stack/typo3 is an addition to XAMPP (local webserver, mysql,php enviconment) Quickly install a complete clean and working typo3 locally
 * **Own and manual installation**
 read this in general https://github.com/TYPO3/TYPO3.CMS/blob/master/INSTALL.md
-
+* **Git -[short and sweet](http://rogerdudler.github.io/git-guide/index.html)**
 ### TYPO3 itself
  
 * **TYPO3 Package** 
