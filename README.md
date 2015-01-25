@@ -135,25 +135,24 @@ https://fluidtypo3.org/viewhelpers/
 * **[FLUIDTYPO3](https://fluidtypo3.org/)** 
 A peek worth - it is a huge tool universe - pure extbase and FLUID
  - **ext:fluidcontent** does "FCE's" aka Flexible Content Elements - that allows individual content elements for your special needs https://github.com/FluidTYPO3/fluidcontent
- - **ext:VHS** can be a great starter/companion for diving into FLUID as it takes the hassle of wiring everything within TYPOSCRIPT. It is a collection of extremely powerful and advanced template viewhelpers for FLUID templating tasks https://github.com/FluidTYPO3/vhs
+ - **ext:vhs** can be a great starter/companion for diving into FLUID as it takes the hassle of wiring everything within TYPOSCRIPT. It is a collection of extremely powerful and advanced template viewhelpers for FLUID templating tasks https://github.com/FluidTYPO3/vhs
  - **ext:fluidpages** gives you pagetemplates with the FLUIDTYPO3 way. Similar to TEMPLAVOILA -more powerful. But without any "GUI" -believe me: GUI is not needed for that https://github.com/FluidTYPO3/fluidpages
- - **ext:FCC** fluid content core is a extension which replaces css-styled-content extension (which builds every contentelement from TYPOSCRIPT). FCC builds EVERY contentelement from FLUID with the help of EXTBASE. https://github.com/FluidTYPO3/fluidcontent_core
+ - **ext:fcc** fluid content core is a extension which replaces css-styled-content extension (which builds every contentelement from TYPOSCRIPT). FCC builds EVERY contentelement from FLUID with the help of EXTBASE. https://github.com/FluidTYPO3/fluidcontent_core
   - **ext:builder** lets you kickstart providerextensions and validate any FLUIDTYPO3 and FLUID syntax https://github.com/FluidTYPO3/builder
 
 ### Other resources
 
-* **Launchr** *
+* **Launchr**
  https://launchr.com is a service to launch a TYPO3 instance within some seconds to try things in a clean environment.
-* **Vagrant** *
+* **Vagrant**
 https://www.vagrantup.com/ is a tool for installing a complete preconfigured virtual machine with no hassle. See https://github.com/FluidTYPO3/FluidTYPO3-Vagrant
-* **Bitnami for XAMPP** *
+* **Bitnami for XAMPP**
 https://bitnami.com/stack/typo3 is an addition to XAMPP (local webserver, mysql,php enviconment) Quickly install a complete clean and working typo3 locally
 
 ### TYPO3 itself
  
 * **TYPO3 Packages** 
 http://get.typo3.org/ 
- - For definitions of the packages go to http://typo3.org/download/#c1981
  - All in all-the bootstrap package is by far the most current "distribution" for starters and really shows great use of FLUID and TS (TYPOSCRIPT) side by side.
 
 ### Thanks
