@@ -100,13 +100,11 @@ There a a lot of different templating methods and systems in TYPO3. I won't go i
 If you have a question there are plenty of resources -> see section [help](#user-content-help-resources). They all have one thing in common. You must ask the right questions and provide necessary information to get qualified help. Otherwise people wont help you as it takes to long to pull things out of you nose. 
 
 **Use this pattern as a rule of thumbs:**
- ```
- **tl;dr** 
- 
- ### WwwwwP 
- 
- **W**hat is your environment, **w**hat do you want to achieve, **w**hat did you do, **w**hat do you expect, **w**hat do you get. **P**rovide a [gist](https://gist.github.com/)
- ```
+
+> **tl;dr** 
+> ### WwwwwP 
+> **W**hat is your environment, **w**hat do you want to achieve, **w**hat did you do, **w**hat do you expect, **w**hat do you get. **P**rovide a [gist](https://gist.github.com/)
+
 * **W**hat is your environment 
     * Tell us what TYPO3 Version
     * Which extensions and versions do you use
@@ -127,12 +125,6 @@ If you have a question there are plenty of resources -> see section [help](#user
     * Copy and paste your original code to avoid typos. 
     * Break down code to a minimum working example if you are asked to or if your problem relies on a principle that you do not understand
     * divide into several files if your problem relies on multiple files or situations
-
-### Actual behaviour
-Tell us what happens instead
-
-### Server configuration
-
 
 ## Pitfalls
 
