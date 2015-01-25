@@ -101,7 +101,11 @@ If you have a question there are plenty of resources -> see section [help](#user
 
 **Use this pattern as a rule of thumbs:**
  ```
- **tl;dr** [WwwwwP] **W**hat is your environment, **w**hat do you want to achieve, **w**hat did you do, **w**hat do you expect, **w**hat do you get. **P**rovide a [gist](https://gist.github.com/)
+ **tl;dr** 
+ 
+ ### WwwwwP 
+ 
+ **W**hat is your environment, **w**hat do you want to achieve, **w**hat did you do, **w**hat do you expect, **w**hat do you get. **P**rovide a [gist](https://gist.github.com/)
  ```
 * **W**hat is your environment 
     * Tell us what TYPO3 Version
