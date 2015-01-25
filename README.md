@@ -19,10 +19,8 @@ If you dig into TYPO3 you need a lot of time to understand it.
  
 ## Keep it in mind
 
-* If you are new to TYPO3 keep on going but don´t get disappointed if things take long time. TYPO3 has a huge learning curve, but gives you a dramatically big, flexible and quite secure universe in content management. 
- 
-* A lot of stuff you read can be outdated. **Keep always verifying** that you read the **latest** information, howtos and snippets and that they **match** your usecase / TYPO3 Version. 
- 
+* If you are new to TYPO3 keep on going but don´t get disappointed if things take long time. TYPO3 has a huge learning curve, but gives you a dramatically big, flexible and quite secure universe in content management.
+* A lot of stuff you read can be outdated. **Keep always verifying** that you read the **latest** information, howtos and snippets and that they **match** your usecase / TYPO3 Version.
 * Verify extension versions and read always the documentations to the extensions.
 
 ## Good to have
@@ -35,14 +33,18 @@ If you dig into TYPO3 you need a lot of time to understand it.
 ## Getting into it
 
 1. If you know nothing http://docs.typo3.org/typo3cms/GettingStartedTutorial
-2. Build your environment
+2. Know the principles of extensions in [general](http://typo3.org/extensions/what-are-extensions/) and in [detail](http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/Index.html)
+2. Know where to find documentations -> see section [Documentations](#user-content-documentations)
+2. Know how to get help -> see section [Help Resources](#user-content-help-resources) and [Howto ask](#user-content-howto-ask)
+3. Build your environment
     * Webserver -> see section [Other resources](#user-content-other-resources)
     * DB Server -> see section [Other resources](#user-content-other-resources)
-    * IDE -> see section [Resources](#user-content-resources)
-3. Get familar with git and github. It's a versioning system and let's you dive into coderevisions with ease
+    * IDE -> see section [Tools](#user-content-tools) IDE Editor
+4. Get familar with git and github. It's a versioning system and let's you dive into coderevisions with ease
+5. Providerextension - I recommend you to write **ALWAYS ANY** code in such a -> See section [extensions](#user-content-extensions) -> ext:builder
 4. Start fiddeling around with TYPOSCRIPT and FLUID
 5. If you come to the point of markers mentioned anywhere - read it but don´t use it. Go to FLUID
-6. If you install extensions, try to use extbase Versions as often as possible
+6. If you install extensions from [TER](http://typo3.org/extensions/repository/), try to use extbase versions as often as possible. Determinable as a rule of thumb: If extension has compatibility prior to 6.x TYPO3 Versions the possiblity is quite high that it does not rely on extbase. 
 7. You should always know what has happended in the last versions of the cms to avoid issues with outdated documentations http://typo3.org/download/release-notes/whats-new/
 8. You should always know what has happened in the last versions of extensions that you use. Several locations do give advice. [git/forge/TER/individual location] -> Depends on the extension, just find out.
 
@@ -58,9 +60,8 @@ If you dig into TYPO3 you need a lot of time to understand it.
     
 ### Templating
  
-There a a lot of different templating methods and systems in TYPO3. These days FLUID is the recommended way. It´s extremely powerful and gives you great flexibility. Forget what you ever heard. If someone sais "fluid is odd" - this person has no idea of it´s capabilities and what benefits it is giving to you.
+There a a lot of different templating methods and systems in TYPO3. I won't go into details here. These days FLUID is the recommended way. It´s extremely powerful and gives you great flexibility. Forget what you ever heard. If someone sais "fluid is odd" - this person has no idea of it´s capabilities and what benefits it is giving to you.
 
-Especially choosing fluidtypo3 for templating and for logics is highly recommended.
 
 ### Sometimes mentioned - here clarified
 
@@ -122,17 +123,25 @@ https://hexchat.github.io/ is an example. There are plenty of out there
 https://www.jetbrains.com/phpstorm/ is an example. There are plenty of out there. **This one is highly recommended**
 
 ### Documentations
-
+#### in general
 * **TYPO3 documentations in general** 
 http://docs.typo3.org/ 
 * **TYPO3 CMS related documentations** 
 http://docs.typo3.org/typo3cms/Index.html
 * **TYPO3 extension manuals** 
 http://docs.typo3.org/typo3cms/extensions/
+
+#### dedicated extensions
 * **FLUIDTYPO3 documentations** 
 https://github.com/FluidTYPO3/documentation
 * **FLUIDTYPO3 ext:vhs and FLUID viewhelper reference** 
 https://fluidtypo3.org/viewhelpers/
+
+#### for developing
+* **TYPO3 API Reference** helps you to understand principles
+http://docs.typo3.org/typo3cms/CoreApiReference
+* **TYPO3 API Documentation** shows you all available classes and functions within the CMS API
+http://typo3.org/documentation/api/
 
 ### Extensions 
 
