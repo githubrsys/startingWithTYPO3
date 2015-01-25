@@ -132,14 +132,13 @@ https://fluidtypo3.org/viewhelpers/
 
 ### Extensions 
 
-* **Fluidtypo3** 
-https://fluidtypo3.org/
-Is a peek worth as it is a huge tool universe - it´s pure extbase and FLUID
+* **[FLUIDTYPO3](https://fluidtypo3.org/)** 
+A peek worth - it is a huge tool universe - pure extbase and FLUID
  - **ext:fluidcontent** does "FCE's" aka Flexible Content Elements - that allows individual content elements for your special needs https://github.com/FluidTYPO3/fluidcontent
- - **ext:VHS** can be a great starter/companion for diving into FLUID as it takes the hassle of wiring everything within TypoScript. It is a collection of extremely powerful and advanced template viewhelpers for FLUID templating tasks https://github.com/FluidTYPO3/vhs
- - **ext:fluidpages** gives you pagetemplates with the fluidtypo3 way. Similar to Templavoila but more powerful. But without any "gui" -believe me: GUI is not needed for that https://github.com/FluidTYPO3/fluidpages
- - **ext:FCC** fluid content core is a new extension which replaces css-styled-content extension which builds every contentelement from typoscript. FCC builds EVERY contentelement from fluid. So in the end you are much more flexible https://github.com/FluidTYPO3/fluidcontent_core
-  - **ext:builder** lets you kickstart providerextensions and validate any fluidtypo3 and fluid syntax https://github.com/FluidTYPO3/builder
+ - **ext:VHS** can be a great starter/companion for diving into FLUID as it takes the hassle of wiring everything within TYPOSCRIPT. It is a collection of extremely powerful and advanced template viewhelpers for FLUID templating tasks https://github.com/FluidTYPO3/vhs
+ - **ext:fluidpages** gives you pagetemplates with the FLUIDTYPO3 way. Similar to TEMPLAVOILA -more powerful. But without any "GUI" -believe me: GUI is not needed for that https://github.com/FluidTYPO3/fluidpages
+ - **ext:FCC** fluid content core is a extension which replaces css-styled-content extension (which builds every contentelement from TYPOSCRIPT). FCC builds EVERY contentelement from FLUID with the help of EXTBASE. https://github.com/FluidTYPO3/fluidcontent_core
+  - **ext:builder** lets you kickstart providerextensions and validate any FLUIDTYPO3 and FLUID syntax https://github.com/FluidTYPO3/builder
 
 ### Other resources
 
