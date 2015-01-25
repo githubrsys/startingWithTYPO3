@@ -41,7 +41,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
 
 ## Getting into it
 
-1. If you know nothing http://docs.typo3.org/typo3cms/GettingStartedTutorial
+1. If you know nothing -read [getting started](http://docs.typo3.org/typo3cms/GettingStartedTutorial)
 2. Know the base principles of TYPOSCRIPT in [general](http://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/)
 3. Know the principles of extensions in [general](http://typo3.org/extensions/what-are-extensions/) and in [detail](http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/Index.html)
 4. Know where to find documentations -> see section [Documentations](#user-content-documentations)
