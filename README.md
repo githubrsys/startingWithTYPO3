@@ -34,24 +34,24 @@ If you dig into TYPO3 you need a lot of time to understand it.
 
 ## Good to have
 
-* A fully qualified IDE -> see section [Tools](#user-content-tools) 
-* If not an IDE then at least a cool text-editor -> see section [Tools](#user-content-tools)
+* A fully qualified IDE -> see section [Tools](#tools) 
+* If not an IDE then at least a cool text-editor -> see section [Tools](#tools)
 * Get familar with git and it's usage. Versioncontrol of your code is a big help in any case at any stage
-* I recommend you to write **ALWAYS ANY** code in your own providerextension -> See section [extensions](#user-content-extensions) -> ext:builder
+* I recommend you to write **ALWAYS ANY** code in your own providerextension -> See section [extensions](#extensions) -> ext:builder
 
 ## Getting into it
 
 1. If you know nothing -read [getting started](http://docs.typo3.org/typo3cms/GettingStartedTutorial)
 2. Know the base principles of TYPOSCRIPT in [general](http://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/)
 3. Know the principles of extensions in [general](http://typo3.org/extensions/what-are-extensions/) and in [detail](http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/Index.html)
-4. Know where to find documentations -> see section [Documentations](#user-content-documentations)
-5. Know how to get help -> see section [Help Resources](#user-content-help-resources) and [Howto ask](#user-content-howto-ask) the right way
+4. Know where to find documentations -> see section [Documentations](#documentations)
+5. Know how to get help -> see section [Help Resources](#help-resources) and [Howto ask](#howto-ask) the right way
 6. Build your environment
-    * Webserver -> see section [Other resources](#user-content-other-resources)
-    * DB Server -> see section [Other resources](#user-content-other-resources)
-    * IDE -> see section [Tools](#user-content-tools) IDE Editor
+    * Webserver -> see section [Other resources](#other-resources)
+    * DB Server -> see section [Other resources](#other-resources)
+    * IDE -> see section [Tools](#tools) IDE Editor
 7. Get familar with [git](http://rogerdudler.github.io/git-guide/index.html) and [github](http://github.com) [definition](http://wikipedia.org/wiki/GitHub) and [gist](http://gist.github.com) [definition](http://en.wikipedia.org/wiki/GitHub#Gist)
-8. Providerextension - I recommend you to write **ALWAYS ANY** code in such a -> See section [extensions](#user-content-extensions) -> ext:builder
+8. Providerextension - I recommend you to write **ALWAYS ANY** code in such a -> See section [extensions](#extensions) -> ext:builder
 9. Start fiddeling around with TYPOSCRIPT and FLUID
     * If you come to a point where markers are mentioned like ``###marker###`` - read it but don´t use it. Go to FLUID
 10. If you install extensions from [TER](http://typo3.org/extensions/repository/), try to use extbase versions as often as possible. Determinable as a rule of thumb: If extension has compatibility prior to 6.x TYPO3 versions the possiblity is quite high that it does not rely on extbase. 
@@ -100,7 +100,7 @@ There a a lot of different templating methods and systems in TYPO3. I won't go i
 
 ## Howto ask
 
-If you have a question -there are plenty of resources -> see section [Help Resources](#user-content-help-resources). 
+If you have a question -there are plenty of resources -> see section [Help Resources](#help-resources). 
 
 They all have one thing in common. You must ask the right questions and provide necessary information to get qualified help. Otherwise people wont help you as it takes to long to pull things out of your nose.  
 
