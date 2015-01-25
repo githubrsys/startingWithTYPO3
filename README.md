@@ -119,15 +119,15 @@ https://www.jetbrains.com/phpstorm/ is an example. There are plenty of out there
 
 ### Documentations
 
-* **Docs in general** 
+* **TYPO3 documentations in general** 
 http://docs.typo3.org/ 
-* **TYPO3 CMS related Docs** 
+* **TYPO3 CMS related documentations** 
 http://docs.typo3.org/typo3cms/Index.html
-* **TYPO3 Extension Manuals** 
+* **TYPO3 extension manuals** 
 http://docs.typo3.org/typo3cms/extensions/
-* **Fluidtypo3** 
+* **FLUIDTYPO3 documentations** 
 https://github.com/FluidTYPO3/documentation
-* **Fluidtypo3 Viewhelper reference** 
+* **FLUIDTYPO3 ext:vhs and FLUID viewhelper reference** 
 https://fluidtypo3.org/viewhelpers/
 
 ### Extensions 
