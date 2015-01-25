@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Starting with TYPO3 in 2015 : How to start with TYPO3 - a set of Documentations">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Starting with TYPO3 in 2015</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/githubrsys/startingWithTYPO3">View on GitHub</a>
+
+          <h1 id="project_title">Starting with TYPO3 in 2015</h1>
+          <h2 id="project_tagline">How to start with TYPO3 - a set of Documentations</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/githubrsys/startingWithTYPO3/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/githubrsys/startingWithTYPO3/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="howto-start-with-typo3-cms-in-2015" class="anchor" href="#howto-start-with-typo3-cms-in-2015" aria-hidden="true"><span class="octicon octicon-link"></span></a>Howto start with TYPO3 CMS in 2015</h1>
+
+<ul>
+<li>6.x Versions mentioned. Based on personal experience</li>
+<li>Still valid for 7.0.x</li>
+</ul>
+
+<h2>
+<a id="what-this-document-does" class="anchor" href="#what-this-document-does" aria-hidden="true"><span class="octicon octicon-link"></span></a>What this document does</h2>
+
+<ul>
+<li>Shows you some basic stuff for TYPO3, how to get into it, how to handle some things and partially gives some hints for developing</li>
+<li>Does not show you basic principles of the TYPO3-CMS itself</li>
+<li>This document aims torwards newbie integrators and can be overflown also by newbie developers</li>
+<li>It has no benefitical information for editors</li>
+</ul>
+
+<h2>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h2>
+
+<ul>
+<li>You should at least be familar with HTML and CSS 
+
+<ul>
+<li>-&gt; Learn it on <a href="http://www.codecademy.com/tracks/web">Codeacademy</a> for free</li>
+</ul>
+</li>
+<li>Some JS knowledge is even more wise to have. In particular jQuery 
+
+<ul>
+<li>-&gt; Learn it on <a href="http://www.codecademy.com/tracks/jquery">Codeacademy</a> for free</li>
+</ul>
+</li>
+</ul>
+
+<p>After you are familar with these things you are able to dig into CMS business. </p>
+
+<p><strong>If you don´t have a clue about it, you will get seriously frustrated and you should not start anything.</strong></p>
+
+<p>If you dig into TYPO3 you need a lot of time to understand it.</p>
+
+<h4>
+<a id="prerequisites---for-developers" class="anchor" href="#prerequisites---for-developers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites - for developers</h4>
+
+<ul>
+<li>You should at least have read this: <a href="http://docs.typo3.org/typo3cms/ExtbaseFluidBook/2-BasicPrinciples/3-Model-View-Controller-in-Extbase.html">http://docs.typo3.org/typo3cms/ExtbaseFluidBook/2-BasicPrinciples/3-Model-View-Controller-in-Extbase.html</a>
+</li>
+<li>You are good advised to read the basic principles completely <a href="http://docs.typo3.org/typo3cms/ExtbaseFluidBook/2-BasicPrinciples/Index.html">http://docs.typo3.org/typo3cms/ExtbaseFluidBook/2-BasicPrinciples/Index.html</a>
+</li>
+</ul>
+
+<h2>
+<a id="keep-it-in-mind" class="anchor" href="#keep-it-in-mind" aria-hidden="true"><span class="octicon octicon-link"></span></a>Keep it in mind</h2>
+
+<ul>
+<li>If you are new to TYPO3 keep on going but don´t get disappointed if things take long time. TYPO3 has a huge learning curve, but gives you a dramatically big, flexible and quite secure universe in content management.</li>
+<li>A lot of stuff you read can be outdated. <strong>Keep always verifying</strong> that you read the <strong>latest</strong> information, howtos and snippets and that they <strong>match</strong> your usecase / TYPO3 Version.</li>
+<li>Verify extension versions and read always the documentations to the extensions.</li>
+</ul>
+
+<h2>
+<a id="good-to-have" class="anchor" href="#good-to-have" aria-hidden="true"><span class="octicon octicon-link"></span></a>Good to have</h2>
+
+<ul>
+<li>A fully qualified IDE -&gt; see section <a href="#user-content-tools">Tools</a> </li>
+<li>If not an IDE then at least a cool text-editor -&gt; see section <a href="#user-content-tools">Tools</a>
+</li>
+<li>Get familar with git and it's usage. Versioncontrol of your code is a big help in any case at any stage</li>
+<li>I recommend you to write <strong>ALWAYS ANY</strong> code in your own providerextension -&gt; See section <a href="#user-content-extensions">extensions</a> -&gt; ext:builder</li>
+</ul>
+
+<h2>
+<a id="getting-into-it" class="anchor" href="#getting-into-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting into it</h2>
+
+<ol>
+<li>If you know nothing -read <a href="http://docs.typo3.org/typo3cms/GettingStartedTutorial">getting started</a>
+</li>
+<li>Know the base principles of TYPOSCRIPT in <a href="http://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/">general</a>
+</li>
+<li>Know the principles of extensions in <a href="http://typo3.org/extensions/what-are-extensions/">general</a> and in <a href="http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/Index.html">detail</a>
+</li>
+<li>Know where to find documentations -&gt; see section <a href="#user-content-documentations">Documentations</a>
+</li>
+<li>Know how to get help -&gt; see section <a href="#user-content-help-resources">Help Resources</a> and <a href="#user-content-howto-ask">Howto ask</a> the right way</li>
+<li>Build your environment
+
+<ul>
+<li>Webserver -&gt; see section <a href="#user-content-other-resources">Other resources</a>
+</li>
+<li>DB Server -&gt; see section <a href="#user-content-other-resources">Other resources</a>
+</li>
+<li>IDE -&gt; see section <a href="#user-content-tools">Tools</a> IDE Editor</li>
+</ul>
+</li>
+<li>Get familar with <a href="http://rogerdudler.github.io/git-guide/index.html">git</a> and <a href="http://github.com">github</a> <a href="http://wikipedia.org/wiki/GitHub">definition</a> and <a href="http://gist.github.com">gist</a> <a href="http://en.wikipedia.org/wiki/GitHub#Gist">definition</a>
+</li>
+<li>Providerextension - I recommend you to write <strong>ALWAYS ANY</strong> code in such a -&gt; See section <a href="#user-content-extensions">extensions</a> -&gt; ext:builder</li>
+<li>Start fiddeling around with TYPOSCRIPT and FLUID
+
+<ul>
+<li>If you come to a point where markers are mentioned like <code>###marker###</code> - read it but don´t use it. Go to FLUID</li>
+</ul>
+</li>
+<li><p>If you install extensions from <a href="http://typo3.org/extensions/repository/">TER</a>, try to use extbase versions as often as possible. Determinable as a rule of thumb: If extension has compatibility prior to 6.x TYPO3 versions the possiblity is quite high that it does not rely on extbase. </p></li>
+</ol>
+
+<ul>
+<li><p>You should always know what has happened in the last versions of the cms to avoid issues with outdated documentations <a href="http://typo3.org/download/release-notes/whats-new/">http://typo3.org/download/release-notes/whats-new/</a></p></li>
+<li><p>You should always know what has happened in the last versions of extensions that you use. Several locations do give advice. [git/forge/TER/individual location] -&gt; Depends on the extension, just find out.</p></li>
+<li>
+<p>Make a decision if you want to go the FLUIDTYPO3 way, go with TYPOSCRIPT only or if you want to use both. Once you have chosen TYPOSCRIPT -&gt; print this and sleep on it. Perhaps it finds the way to your brain. </p>
+
+<ul>
+<li><a href="http://docs.typo3.org/typo3cms/TyposcriptReference/singlehtml/">http://docs.typo3.org/typo3cms/TyposcriptReference/singlehtml/</a></li>
+</ul>
+</li>
+<li>
+<p>This is what you need as bookmark for TYPOSCRIPT in any case </p>
+
+<ul>
+<li><a href="http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/">http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/</a></li>
+</ul>
+</li>
+<li>
+<p>If you are interested in programming, go with extbase + FLUID </p>
+
+<ul>
+<li><a href="http://vosp.info/index.php/Typo3_Extensions_entwickeln">http://vosp.info/index.php/Typo3_Extensions_entwickeln</a></li>
+<li><a href="http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/">http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/</a></li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="templating" class="anchor" href="#templating" aria-hidden="true"><span class="octicon octicon-link"></span></a>Templating</h3>
+
+<p>There a a lot of different templating methods and systems in TYPO3. I won't go into details here. These days FLUID is the recommended way. It´s extremely powerful and gives you great flexibility. Forget what you ever heard. If someone sais "fluid is odd" - this person has no idea of it´s capabilities and what benefits it is giving to you.</p>
+
+<h2>
+<a id="sometimes-mentioned---here-clarified" class="anchor" href="#sometimes-mentioned---here-clarified" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sometimes mentioned - here clarified</h2>
+
+<ul>
+<li>
+<strong>FLUIDTYPO3 (former fedext) and ext:gridelements</strong> 
+work great together - There´s no need for fedext vs. gridelements - but you should make a decision :-) mine is fluidtypo3 due the fact of more ground control.</li>
+<li>
+<strong>Should I start with the latest TYPO3 SPRINT or with the latest TYPO3 LTS Version?</strong><br>
+
+<ul>
+<li>It's up to you. Both are stable but the LTS has a core which will remain longer the same. The SPRINT Version has always the latest changes in core</li>
+</ul>
+</li>
+<li>
+<strong>Is templavoila for templating an option?</strong>
+
+<ul>
+<li>IMHO not. It was once a smart approach for templating which is outdated by now. It's still kept "working" but in the end there's no active feature devolopment anymore. If you think that you need a GUI with "Point and Click" for templating then honestly you should consider changing your job</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="what-is" class="anchor" href="#what-is" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is....</h2>
+
+<ul>
+<li>
+<strong>What is TYPOSCRIPT</strong>
+
+<ul>
+<li>Read this: <a href="http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/AppendixA/Index.html">http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/AppendixA/Index.html</a>
+</li>
+</ul>
+</li>
+<li>
+<strong>Is TYPOSCRIPT mandatory</strong>
+
+<ul>
+<li>No. But you are good advised to know the principles as every extension uses it more or less. If you decide to avoid TYPOSCRIPT you can use ext:fcc and ext:vhs to reach your goals. And plain extbase programming of course.</li>
+</ul>
+</li>
+<li>
+<strong>What is FLUIDTYPO3</strong>
+
+<ul>
+<li>FLUIDTYPO3 is a set of extensions that give you handy tools for developing and templating based on fluid and extbase. See section extensions in this document.</li>
+</ul>
+</li>
+<li>
+<strong>What is FLUID</strong>
+
+<ul>
+<li>Is the recommended templating engine of TYPO3. It's not mandatory but nearly every new extension of typo3 relies on that. So you are good advised to use it.</li>
+</ul>
+</li>
+<li>
+<strong>What is the difference of FLUID and FLUIDTYPO3</strong>
+
+<ul>
+<li>See above. FLUIDTYPO3 is a set of extensions that heavily use FLUID as templatingengine and extbase as logic processor.</li>
+</ul>
+</li>
+<li>
+<strong>What is extbase</strong>
+
+<ul>
+<li>Read this <a href="http://docs.typo3.org/typo3cms/ExtbaseGuide/Extbase/Index.html">http://docs.typo3.org/typo3cms/ExtbaseGuide/Extbase/Index.html</a>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="howto-ask" class="anchor" href="#howto-ask" aria-hidden="true"><span class="octicon octicon-link"></span></a>Howto ask</h2>
+
+<p>If you have a question -there are plenty of resources -&gt; see section <a href="#user-content-help-resources">help</a>. </p>
+
+<p>They all have one thing in common. You must ask the right questions and provide necessary information to get qualified help. Otherwise people wont help you as it takes to long to pull things out of your nose.  </p>
+
+<p><strong>Use this pattern as a rule of thumbs:</strong></p>
+
+<blockquote>
+<p><strong>tl;dr</strong> </p>
+
+<h3>
+<a id="wwwwwp" class="anchor" href="#wwwwwp" aria-hidden="true"><span class="octicon octicon-link"></span></a>WwwwwP</h3>
+
+<p><strong>W</strong>hat is your environment, <strong>w</strong>hat do you want to achieve, <strong>w</strong>hat did you do, <strong>w</strong>hat do you expect, <strong>w</strong>hat do you get. <strong>P</strong>rovide a <a href="https://gist.github.com/">gist</a></p>
+</blockquote>
+
+<ul>
+<li> <strong>What is your environment</strong> 
+
+<ul>
+<li>Tell us what TYPO3 Version</li>
+<li>Which extensions and versions do you use</li>
+<li>Where is your code nested in</li>
+<li>Server environment if necessary</li>
+</ul>
+</li>
+<li>
+<strong>What do you want to achieve</strong>
+
+<ul>
+<li>Tell us what you want to have in the end. </li>
+<li>Needed to determine if you are on the right track.</li>
+</ul>
+</li>
+<li>
+<strong>What did you do</strong>
+
+<ul>
+<li>Tell us what did you do and why.</li>
+<li>In some circumstances this can also be understood as "how to reproduce" your actual behaviour</li>
+</ul>
+</li>
+<li>
+<strong>What do you expect</strong>
+
+<ul>
+<li>Tell us what do you expect</li>
+</ul>
+</li>
+<li>
+<strong>What do you get</strong>
+
+<ul>
+<li>Tell us what do you get</li>
+</ul>
+</li>
+<li>
+<strong>Provide a <a href="https://gist.github.com/">gist</a></strong>
+
+<ul>
+<li>Show us your code. Everything else is digging in the dark -mostly.</li>
+<li>Copy and paste your original code to avoid typos. </li>
+<li>Break down code to a minimum working example if you are asked to or if your problem relies on a principle that you do not understand</li>
+<li>divide into several files if your problem relies on multiple files or situations</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="pitfalls" class="anchor" href="#pitfalls" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pitfalls</h2>
+
+<p>This section has to be done one day. Here just the topics that are taken into account:</p>
+
+<h4>
+<a id="in-general" class="anchor" href="#in-general" aria-hidden="true"><span class="octicon octicon-link"></span></a>In General</h4>
+
+<h4>
+<a id="server" class="anchor" href="#server" aria-hidden="true"><span class="octicon octicon-link"></span></a>Server</h4>
+
+<h4>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h4>
+
+<h4>
+<a id="typoscript" class="anchor" href="#typoscript" aria-hidden="true"><span class="octicon octicon-link"></span></a>TYPOSCRIPT</h4>
+
+<h4>
+<a id="fluid" class="anchor" href="#fluid" aria-hidden="true"><span class="octicon octicon-link"></span></a>FLUID</h4>
+
+<h4>
+<a id="extbase" class="anchor" href="#extbase" aria-hidden="true"><span class="octicon octicon-link"></span></a>EXTBASE</h4>
+
+<h2>
+<a id="useful-links" class="anchor" href="#useful-links" aria-hidden="true"><span class="octicon octicon-link"></span></a>Useful Links</h2>
+
+<h3>
+<a id="help-resources" class="anchor" href="#help-resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Help resources</h3>
+
+<ul>
+<li>
+<strong>Mailinglists</strong> - You must use a <a href="http://typo3.org/support/mailing-lists/use-a-newsreader/">Newsreader</a>
+
+<ul>
+<li>
+<a href="http://lists.typo3.org/">http://lists.typo3.org/</a> </li>
+</ul>
+</li>
+<li>
+<strong>Forum</strong> - Hint: Search the forum like <a href="https://www.google.de/#q=site:forum.typo3.org+searchwords">this</a> 
+
+<ul>
+<li>
+<a href="http://forum.typo3.org/">http://forum.typo3.org/</a> </li>
+</ul>
+</li>
+<li>
+<strong>IRC - Internet relay chat</strong> Hint: Search the typo3 irc like <a href="https://www.google.de/#q=site:riesvantwisk.com+typo3+IRC+Log+searchwords">this</a> and the fluidtypo3 irc like <a href="https://fluidtypo3.org/search.html?q=foo">this</a>
+typo3 &amp;&amp; fedext channel on freenode.net </li>
+<li>
+<strong>Forge | bugs and useful info for extensions</strong> 
+<a href="http://forge.typo3.org/projects">http://forge.typo3.org/projects</a>
+</li>
+</ul>
+
+<h3>
+<a id="tools" class="anchor" href="#tools" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tools</h3>
+
+<ul>
+<li>
+<strong>IRC Client</strong> 
+<a href="https://hexchat.github.io/">https://hexchat.github.io/</a> is an example. There are plenty of out there</li>
+<li>
+<strong>IDE Editor</strong> 
+<a href="https://www.jetbrains.com/phpstorm/">https://www.jetbrains.com/phpstorm/</a> is an example. There are plenty of out there. <strong>This one is highly recommended</strong>
+</li>
+<li>
+<strong>Text Editor</strong> just cool. And don't forget to install <a href="https://packagecontrol.io/installation">packagecontrol</a> 
+<a href="http://www.sublimetext.com/">http://www.sublimetext.com/</a>
+</li>
+</ul>
+
+<h3>
+<a id="documentations" class="anchor" href="#documentations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentations</h3>
+
+<h4>
+<a id="in-general-1" class="anchor" href="#in-general-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>in general</h4>
+
+<ul>
+<li>
+<strong>TYPO3 documentations in general</strong> 
+<a href="http://docs.typo3.org/">http://docs.typo3.org/</a> </li>
+<li>
+<strong>TYPO3 CMS related documentations</strong> 
+<a href="http://docs.typo3.org/typo3cms/Index.html">http://docs.typo3.org/typo3cms/Index.html</a>
+</li>
+<li>
+<strong>TYPO3 extension manuals</strong> 
+<a href="http://docs.typo3.org/typo3cms/extensions/">http://docs.typo3.org/typo3cms/extensions/</a>
+</li>
+</ul>
+
+<h4>
+<a id="dedicated-extensions" class="anchor" href="#dedicated-extensions" aria-hidden="true"><span class="octicon octicon-link"></span></a>dedicated extensions</h4>
+
+<ul>
+<li>
+<strong>FLUIDTYPO3 documentations</strong> 
+<a href="https://github.com/FluidTYPO3/documentation">https://github.com/FluidTYPO3/documentation</a>
+</li>
+<li>
+<strong>FLUIDTYPO3 ext:vhs and FLUID viewhelper reference</strong> 
+<a href="https://fluidtypo3.org/viewhelpers/">https://fluidtypo3.org/viewhelpers/</a>
+</li>
+</ul>
+
+<h4>
+<a id="for-developing" class="anchor" href="#for-developing" aria-hidden="true"><span class="octicon octicon-link"></span></a>for developing</h4>
+
+<ul>
+<li>
+<strong>TYPO3 API Reference</strong> helps you to understand principles
+<a href="http://docs.typo3.org/typo3cms/CoreApiReference">http://docs.typo3.org/typo3cms/CoreApiReference</a>
+</li>
+<li>
+<strong>TYPO3 API Documentation</strong> shows you all available classes and functions within the CMS API
+<a href="http://typo3.org/documentation/api/">http://typo3.org/documentation/api/</a>
+</li>
+</ul>
+
+<h3>
+<a id="extensions" class="anchor" href="#extensions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Extensions</h3>
+
+<ul>
+<li>
+<strong><a href="https://fluidtypo3.org/">FLUIDTYPO3</a></strong> 
+A peek worth - it is a huge tool universe - pure extbase and FLUID
+
+<ul>
+<li>
+<strong>ext:fluidcontent</strong> does "FCE's" aka Flexible Content Elements - that allows individual content elements for your special needs <a href="https://github.com/FluidTYPO3/fluidcontent">https://github.com/FluidTYPO3/fluidcontent</a>
+</li>
+<li>
+<strong>ext:vhs</strong> can be a great starter/companion for diving into FLUID as it takes the hassle of wiring everything within TYPOSCRIPT. It is a collection of extremely powerful and advanced template viewhelpers for FLUID templating tasks <a href="https://github.com/FluidTYPO3/vhs">https://github.com/FluidTYPO3/vhs</a>
+</li>
+<li>
+<strong>ext:fluidpages</strong> gives you pagetemplates with the FLUIDTYPO3 way. Similar to TEMPLAVOILA -more powerful. But without any "GUI" -believe me: GUI is not needed for that <a href="https://github.com/FluidTYPO3/fluidpages">https://github.com/FluidTYPO3/fluidpages</a>
+</li>
+<li>
+<strong>ext:fcc</strong> fluid content core is a extension which replaces css-styled-content extension (which builds every contentelement from TYPOSCRIPT). FCC builds EVERY contentelement from FLUID with the help of EXTBASE. <a href="https://github.com/FluidTYPO3/fluidcontent_core">https://github.com/FluidTYPO3/fluidcontent_core</a>
+</li>
+<li>
+<strong>ext:builder</strong> lets you kickstart providerextensions and validate any FLUIDTYPO3 and FLUID syntax <a href="https://github.com/FluidTYPO3/builder">https://github.com/FluidTYPO3/builder</a>
+</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="other-resources" class="anchor" href="#other-resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other resources</h3>
+
+<ul>
+<li>
+<strong>Launchr</strong>
+<a href="https://launchr.com">https://launchr.com</a> is a service to launch a TYPO3 instance within some seconds to try things in a clean environment.</li>
+<li>
+<strong>Vagrant</strong>
+<a href="https://www.vagrantup.com/">https://www.vagrantup.com/</a> is a tool for installing a complete preconfigured virtual machine with no hassle. See <a href="https://github.com/FluidTYPO3/FluidTYPO3-Vagrant">https://github.com/FluidTYPO3/FluidTYPO3-Vagrant</a>
+</li>
+<li>
+<strong>Bitnami for XAMPP</strong>
+<a href="https://bitnami.com/stack/typo3">https://bitnami.com/stack/typo3</a> is an addition to XAMPP (local webserver, mysql,php enviconment) Quickly install a complete clean and working typo3 locally</li>
+<li>
+<strong>Own and manual installation</strong>
+read this in general <a href="https://github.com/TYPO3/TYPO3.CMS/blob/master/INSTALL.md">https://github.com/TYPO3/TYPO3.CMS/blob/master/INSTALL.md</a>
+</li>
+<li>
+<p><strong>Git -<a href="http://rogerdudler.github.io/git-guide/index.html">short and sweet</a></strong></p>
+
+<h3>
+<a id="typo3-itself" class="anchor" href="#typo3-itself" aria-hidden="true"><span class="octicon octicon-link"></span></a>TYPO3 itself</h3>
+</li>
+<li>
+<p><strong>TYPO3 Package</strong> 
+<a href="http://get.typo3.org/">http://get.typo3.org/</a> </p>
+
+<ul>
+<li>All in all-the bootstrap package is by far the most current "distribution" for starters and really shows great use of FLUID and TS (TYPOSCRIPT) side by side.</li>
+</ul>
+</li>
+<li>
+<strong>TYPO3.CMS Git repo</strong> - See what's going on with shortlog and examine core files
+<a href="https://git.typo3.org/Packages/TYPO3.CMS.git">https://git.typo3.org/Packages/TYPO3.CMS.git</a>
+</li>
+</ul>
+
+<h3>
+<a id="found-a-problem" class="anchor" href="#found-a-problem" aria-hidden="true"><span class="octicon octicon-link"></span></a>Found a problem</h3>
+
+<ul>
+<li>for TYPO3 core
+
+<ul>
+<li><a href="https://forge.typo3.org/projects/typo3cms-core">https://forge.typo3.org/projects/typo3cms-core</a></li>
+</ul>
+</li>
+<li>for TYPO3 extensions
+
+<ul>
+<li>Determine from extension manual where to post issues to. Can be forge / github / mail / external site</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="thanks" class="anchor" href="#thanks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Thanks</h3>
+
+<ul>
+<li>to cedricziel, kraftb, NamelessCoder and many others</li>
+</ul>
+
+<h3>
+<a id="contribution" class="anchor" href="#contribution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribution</h3>
+
+<p>Highly welcome</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Starting with TYPO3 in 2015 maintained by <a href="https://github.com/githubrsys">githubrsys</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
