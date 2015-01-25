@@ -210,6 +210,13 @@ http://get.typo3.org/
 * **TYPO3.CMS Git repo** - See what's going on with shortlog and examine core files
 https://git.typo3.org/Packages/TYPO3.CMS.git
 
+### Found a problem
+
+* for TYPO3 core
+    * https://forge.typo3.org/projects/typo3cms-core
+* for TYPO3 extensions
+    * Determine from extension manual where to post issues to. Can be forge / github / mail / external site
+
 ### Thanks
 - to cedricziel, kraftb, NamelessCoder and many others
 
