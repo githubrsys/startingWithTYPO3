@@ -42,27 +42,30 @@ If you dig into TYPO3 you need a lot of time to understand it.
 ## Getting into it
 
 1. If you know nothing http://docs.typo3.org/typo3cms/GettingStartedTutorial
-2. Know the principles of extensions in [general](http://typo3.org/extensions/what-are-extensions/) and in [detail](http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/Index.html)
-3. Know where to find documentations -> see section [Documentations](#user-content-documentations)
-4. Know how to get help -> see section [Help Resources](#user-content-help-resources) and [Howto ask](#user-content-howto-ask) the right way
-5. Build your environment
+2. Know the base principles of TYPOSCRIPT in [general](http://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial/)
+3. Know the principles of extensions in [general](http://typo3.org/extensions/what-are-extensions/) and in [detail](http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/Index.html)
+4. Know where to find documentations -> see section [Documentations](#user-content-documentations)
+5. Know how to get help -> see section [Help Resources](#user-content-help-resources) and [Howto ask](#user-content-howto-ask) the right way
+6. Build your environment
     * Webserver -> see section [Other resources](#user-content-other-resources)
     * DB Server -> see section [Other resources](#user-content-other-resources)
     * IDE -> see section [Tools](#user-content-tools) IDE Editor
-6. Get familar with git and [github](http://github.com) [definition](http://wikipedia.org/wiki/GitHub) and [gist](http://gist.github.com) [definition](http://en.wikipedia.org/wiki/GitHub#Gist)
-7. Providerextension - I recommend you to write **ALWAYS ANY** code in such a -> See section [extensions](#user-content-extensions) -> ext:builder
-8. Start fiddeling around with TYPOSCRIPT and FLUID
-    * If you come to a point where markers are mentioned like ``###marker###`` - read it but don´t use it. Go to FLUID.
+7. Get familar with git and [github](http://github.com) [definition](http://wikipedia.org/wiki/GitHub) and [gist](http://gist.github.com) [definition](http://en.wikipedia.org/wiki/GitHub#Gist)
+8. Providerextension - I recommend you to write **ALWAYS ANY** code in such a -> See section [extensions](#user-content-extensions) -> ext:builder
+9. Start fiddeling around with TYPOSCRIPT and FLUID
+    * If you come to a point where markers are mentioned like ``###marker###`` - read it but don´t use it. Go to FLUID
 10. If you install extensions from [TER](http://typo3.org/extensions/repository/), try to use extbase versions as often as possible. Determinable as a rule of thumb: If extension has compatibility prior to 6.x TYPO3 versions the possiblity is quite high that it does not rely on extbase. 
 
 * You should always know what has happened in the last versions of the cms to avoid issues with outdated documentations http://typo3.org/download/release-notes/whats-new/
+
 * You should always know what has happened in the last versions of extensions that you use. Several locations do give advice. [git/forge/TER/individual location] -> Depends on the extension, just find out.
-* This is what you need as bookmark for TYPOSCRIPT in any case 
-   * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
-* TYPOSCRIPT in 45 Minutes is fine way to play around with 
-   * http://docs.typo3.org/TYPO3/TyposcriptIn45MinutesTutorial/
+
 * Make a decision if you want to go the FLUIDTYPO3 way, go with TYPOSCRIPT only or if you want to use both. Once you have chosen TYPOSCRIPT -> print this and sleep on it. Perhaps it finds the way to your brain. 
   * http://docs.typo3.org/typo3cms/TyposcriptReference/singlehtml/
+  
+* This is what you need as bookmark for TYPOSCRIPT in any case 
+   * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
+
 * If you are interested in programming, go with extbase + FLUID 
    * http://vosp.info/index.php/Typo3_Extensions_entwickeln
    * http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/
