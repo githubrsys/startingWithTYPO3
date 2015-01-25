@@ -97,7 +97,9 @@ There a a lot of different templating methods and systems in TYPO3. I won't go i
 
 ## Howto ask
 
-If you have a question there are plenty of resources -> see section [help](#user-content-help-resources). They all have one thing in common. You must ask the right questions and provide necessary information to get qualified help. Otherwise people wont help you as it takes to long to pull things out of you nose.  
+If you have a question -there are plenty of resources -> see section [help](#user-content-help-resources). 
+
+They all have one thing in common. You must ask the right questions and provide necessary information to get qualified help. Otherwise people wont help you as it takes to long to pull things out of you nose.  
 
 **Use this pattern as a rule of thumbs:**
 
@@ -143,9 +145,9 @@ This section has to be done one day. Here just the topics that are taken into ac
 ### Help resources
 
 * **Mailinglists** - You must use a [Newsreader](http://typo3.org/support/mailing-lists/use-a-newsreader/ )
-http://lists.typo3.org/ 
+    * http://lists.typo3.org/ 
 * **Forum** - Hint: Search the forum like [this](https://www.google.de/#q=site:forum.typo3.org+searchwords) 
-http://forum.typo3.org/ 
+    * http://forum.typo3.org/ 
 * **IRC - Internet relay chat** Hint: Search the typo3 irc like [this](https://www.google.de/#q=site:riesvantwisk.com+typo3+IRC+Log+searchwords) and the fluidtypo3 irc like [this](https://fluidtypo3.org/search.html?q=foo)
 typo3 && fedext channel on freenode.net 
 * **Forge | bugs and useful info for extensions** 
