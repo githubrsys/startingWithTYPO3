@@ -97,7 +97,7 @@ There a a lot of different templating methods and systems in TYPO3. I won't go i
 
 ## Howto ask
 
-If you have a question there are plenty of resources -> see section [help](#user-content-help-resources). They all have one thing in common. You must ask the right questions and provide necessary information to get qualified help. Otherwise people wont help you as it takes to long to pull things out of you nose. 
+If you have a question there are plenty of resources -> see section [help](#user-content-help-resources). They all have one thing in common. You must ask the right questions and provide necessary information to get qualified help. Otherwise people wont help you as it takes to long to pull things out of you nose.  
 
 **Use this pattern as a rule of thumbs:**
 
