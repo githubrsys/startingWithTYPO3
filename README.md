@@ -4,18 +4,27 @@
 
 ## What this document does
 
-* Shows you some basic stuff for TYPO3, how to get into it and how to handle some things
+* Shows you some basic stuff for TYPO3, how to get into it, how to handle some things and partially gives some hints for developing
 * Does not show you basic principles of the TYPO3-CMS itself
+* This document aims torwards newbie integrators and can be overflown also by newbie developers
+* It has no benefitical information for editors
 
 ## Prerequisites
 
 * You should at least be familar with HTML and CSS 
-* Some JS knowledge is even more wise to have
+    * -> Learn it on [Codeacademy](http://www.codecademy.com/tracks/web) for free
+* Some JS knowledge is even more wise to have. In particular jQuery 
+    * -> Learn it on [Codeacademy](http://www.codecademy.com/tracks/jquery) for free
 
 After you are familar with these things you are able to dig into CMS business. 
-**If you don´t have a clue about it, you will get seriously frustrated.**
+
+**If you don´t have a clue about it, you will get seriously frustrated and you should not start anything.**
  
-If you dig into TYPO3 you need a lot of time to understand it. 
+If you dig into TYPO3 you need a lot of time to understand it.
+ 
+#### Prerequisites - for developers
+* You should at least have read this: http://docs.typo3.org/typo3cms/ExtbaseFluidBook/2-BasicPrinciples/3-Model-View-Controller-in-Extbase.html
+* You are good advised to read the basic principles completely http://docs.typo3.org/typo3cms/ExtbaseFluidBook/2-BasicPrinciples/Index.html
  
 ## Keep it in mind
 
@@ -25,28 +34,28 @@ If you dig into TYPO3 you need a lot of time to understand it.
 
 ## Good to have
 
-* A fully qualified IDE -> see [Tools](#user-content-tools) section
+* A fully qualified IDE -> see section [Tools](#user-content-tools) 
+* If not an IDE then at least a cool text-editor -> see section [Tools](#user-content-tools)
 * Get familar with git and it's usage. Versioncontrol of your code is a big help in any case at any stage
 * I recommend you to write **ALWAYS ANY** code in your own providerextension -> See section [extensions](#user-content-extensions) -> ext:builder
 
- 
 ## Getting into it
 
 1. If you know nothing http://docs.typo3.org/typo3cms/GettingStartedTutorial
 2. Know the principles of extensions in [general](http://typo3.org/extensions/what-are-extensions/) and in [detail](http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/Index.html)
-2. Know where to find documentations -> see section [Documentations](#user-content-documentations)
-2. Know how to get help -> see section [Help Resources](#user-content-help-resources) and [Howto ask](#user-content-howto-ask)
-3. Build your environment
+3. Know where to find documentations -> see section [Documentations](#user-content-documentations)
+4. Know how to get help -> see section [Help Resources](#user-content-help-resources) and [Howto ask](#user-content-howto-ask) the right way
+5. Build your environment
     * Webserver -> see section [Other resources](#user-content-other-resources)
     * DB Server -> see section [Other resources](#user-content-other-resources)
     * IDE -> see section [Tools](#user-content-tools) IDE Editor
-4. Get familar with git and github. It's a versioning system and let's you dive into coderevisions with ease
-5. Providerextension - I recommend you to write **ALWAYS ANY** code in such a -> See section [extensions](#user-content-extensions) -> ext:builder
-4. Start fiddeling around with TYPOSCRIPT and FLUID
-5. If you come to the point of markers mentioned anywhere - read it but don´t use it. Go to FLUID
-6. If you install extensions from [TER](http://typo3.org/extensions/repository/), try to use extbase versions as often as possible. Determinable as a rule of thumb: If extension has compatibility prior to 6.x TYPO3 Versions the possiblity is quite high that it does not rely on extbase. 
-7. You should always know what has happended in the last versions of the cms to avoid issues with outdated documentations http://typo3.org/download/release-notes/whats-new/
-8. You should always know what has happened in the last versions of extensions that you use. Several locations do give advice. [git/forge/TER/individual location] -> Depends on the extension, just find out.
+6. Get familar with git and [github](http://github.com) [definition](http://wikipedia.org/wiki/GitHub) and [gist](http://gist.github.com) [definition](http://en.wikipedia.org/wiki/GitHub#Gist)
+7. Providerextension - I recommend you to write **ALWAYS ANY** code in such a -> See section [extensions](#user-content-extensions) -> ext:builder
+8. Start fiddeling around with TYPOSCRIPT and FLUID
+9. If you come to the point of markers mentioned anywhere - read it but don´t use it. Go to FLUID
+10. If you install extensions from [TER](http://typo3.org/extensions/repository/), try to use extbase versions as often as possible. Determinable as a rule of thumb: If extension has compatibility prior to 6.x TYPO3 Versions the possiblity is quite high that it does not rely on extbase. 
+11. You should always know what has happended in the last versions of the cms to avoid issues with outdated documentations http://typo3.org/download/release-notes/whats-new/
+12. You should always know what has happened in the last versions of extensions that you use. Several locations do give advice. [git/forge/TER/individual location] -> Depends on the extension, just find out.
 
 * This is what you need as bookmark for TYPOSCRIPT in any case 
    * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
@@ -63,7 +72,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
 There a a lot of different templating methods and systems in TYPO3. I won't go into details here. These days FLUID is the recommended way. It´s extremely powerful and gives you great flexibility. Forget what you ever heard. If someone sais "fluid is odd" - this person has no idea of it´s capabilities and what benefits it is giving to you.
 
 
-### Sometimes mentioned - here clarified
+## Sometimes mentioned - here clarified
 
 - **FLUIDTYPO3 (former fedext) and ext:gridelements** 
    work great together - There´s no need for fedext vs. gridelements - but you should make a decision :-) mine is fluidtypo3 due the fact of more ground control.
@@ -72,7 +81,7 @@ There a a lot of different templating methods and systems in TYPO3. I won't go i
 - **Is templavoila for templating an option?**
   * IMHO not. It was once a smart approach for templating which is outdated by now. It's still kept "working" but in the end there's no active feature devolopment anymore. If you think that you need a GUI with "Point and Click" for templating then honestly you should consider changing your job
 
-### What is....
+## What is....
 - **What is TYPOSCRIPT**
   * Read this: http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/AppendixA/Index.html
 - **Is TYPOSCRIPT mandatory**
@@ -86,8 +95,42 @@ There a a lot of different templating methods and systems in TYPO3. I won't go i
 - **What is extbase**
   * Read this http://docs.typo3.org/typo3cms/ExtbaseGuide/Extbase/Index.html
 
+## Howto ask
 
-### Pitfalls
+If you have a question there are plenty of resources -> see section [help](#user-content-help-resources). They all have one thing in common. You must ask the right questions and provide necessary information to get qualified help. Otherwise people wont help you as it takes to long to pull things out of you nose. 
+
+**Use this pattern as a rule of thumbs:**
+ ```
+ **tl;dr** [WwwwwP] **W**hat is your environment, **w**hat do you want to achieve, **w**hat did you do, **w**hat do you expect, **w**hat do you get. **P**rovide a [gist](https://gist.github.com/)
+ ```
+* **W**hat is your environment
+    * Tell us what TYPO3 Version
+    * Which extensions and versions do you use
+    * Where is your code nested in
+    * Server environment if necessary
+* **W**hat do you want to achieve
+    * Tell us what you want to have in the end. 
+    * Needed to determine if you are on the right track.
+* **w**hat did you do
+    * Tell us what did you do and why.
+    * In some circumstances this can also be understood as "how to reproduce" your actual behaviour
+* **w**hat do you expect
+    * Tell us what do you expect
+* **w**hat do you get
+    * Tell us what do you get
+* **P**rovide a [gist](https://gist.github.com/)
+    * Show us your code. Everything else is digging in the dark -mostly.
+    * Copy and paste your original code to avoid typos. 
+    * Break down code to a minimum working example if you are asked to or if your problem relies on a principle that you do not understand
+    * divide into several files if your problem relies on multiple files or situations
+
+### Actual behaviour
+Tell us what happens instead
+
+### Server configuration
+
+
+## Pitfalls
 
 This section has to be done one day. Here just the topics that are taken into account:
 
@@ -103,17 +146,14 @@ This section has to be done one day. Here just the topics that are taken into ac
 
 ### Help resources
 
-* **Mailinglists** 
+* **Mailinglists** - You must use a [Newsreader](http://typo3.org/support/mailing-lists/use-a-newsreader/ )
 http://lists.typo3.org/ 
-* **Newsreader**
-http://typo3.org/support/mailing-lists/use-a-newsreader/ 
-* **Forum** 
+* **Forum** - Hint: Search the forum like [this](https://www.google.de/#q=site:forum.typo3.org+searchwords) 
 http://forum.typo3.org/ 
-* **IRC - Internet relay chat** 
+* **IRC - Internet relay chat** Hint: Search the typo3 irc like [this](https://www.google.de/#q=site:riesvantwisk.com+typo3+IRC+Log+searchwords) and the fluidtypo3 irc like [this](https://fluidtypo3.org/search.html?q=foo)
 typo3 && fedext channel on freenode.net 
 * **Forge | bugs and useful info for extensions** 
 http://forge.typo3.org/projects
-
 
 ### Tools
 
@@ -121,6 +161,8 @@ http://forge.typo3.org/projects
 https://hexchat.github.io/ is an example. There are plenty of out there
 * **IDE Editor** 
 https://www.jetbrains.com/phpstorm/ is an example. There are plenty of out there. **This one is highly recommended**
+* **Text Editor** just cool. And don't forget to install [packagecontrol](https://packagecontrol.io/installation) 
+http://www.sublimetext.com/
 
 ### Documentations
 #### in general
@@ -164,9 +206,11 @@ https://bitnami.com/stack/typo3 is an addition to XAMPP (local webserver, mysql,
 
 ### TYPO3 itself
  
-* **TYPO3 Packages** 
+* **TYPO3 Package** 
 http://get.typo3.org/ 
  - All in all-the bootstrap package is by far the most current "distribution" for starters and really shows great use of FLUID and TS (TYPOSCRIPT) side by side.
+* **TYPO3.CMS Git repo** - See what's going on with shortlog and examine core files
+https://git.typo3.org/Packages/TYPO3.CMS.git
 
 ### Thanks
 - to cedricziel, kraftb, NamelessCoder and many others
