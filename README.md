@@ -204,6 +204,8 @@ A peek worth - it is a huge tool universe - pure extbase and FLUID
 https://www.vagrantup.com/ is a tool for installing a complete preconfigured virtual machine with no hassle. See https://github.com/FluidTYPO3/FluidTYPO3-Vagrant
 * **Bitnami for XAMPP**
 https://bitnami.com/stack/typo3 is an addition to XAMPP (local webserver, mysql,php enviconment) Quickly install a complete clean and working typo3 locally
+* **Own and manual installation**
+read this in general https://github.com/TYPO3/TYPO3.CMS/blob/master/INSTALL.md
 
 ### TYPO3 itself
  
