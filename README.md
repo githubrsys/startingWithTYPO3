@@ -18,7 +18,7 @@
 
 After you are familar with these things you are able to dig into CMS business. 
 
-**If you don´t have a clue about it, you will get seriously frustrated and you should not start anything.**
+**If you don´t have a clue about HTML and CSS, you will get seriously frustrated and you should not start anything.**
  
 If you dig into TYPO3 you need a lot of time to understand it.
  
