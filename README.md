@@ -68,7 +68,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
 
 * If you are interested in programming, go with extbase + FLUID 
    * http://vosp.info/index.php/Typo3_Extensions_entwickeln
-   * http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/
+   * [Reserved-folders](http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/FilesAndLocations/Index.html#extension-reserved-folders) is a good start *before* reading the [extbase book](http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/). Then you are good advised to build a providerextension and try to adopt working scenarios from existing extbase extensions. That's the fastest way to dig into it extbase.
     
 ### Templating
  
