@@ -195,7 +195,7 @@ A peek worth - it is a huge tool universe - pure extbase and FLUID
  - **ext:fluidpages** gives you pagetemplates with the FLUIDTYPO3 way. Similar to TEMPLAVOILA -more powerful. But without any "GUI" -believe me: GUI is not needed for that https://github.com/FluidTYPO3/fluidpages
  - **ext:fcc** fluid content core is a extension which replaces css-styled-content extension (which builds every contentelement from TYPOSCRIPT). FCC builds EVERY contentelement from FLUID with the help of EXTBASE. https://github.com/FluidTYPO3/fluidcontent_core
   - **ext:builder** lets you kickstart providerextensions and validate any FLUIDTYPO3 and FLUID syntax https://github.com/FluidTYPO3/builder
-  - **ext:extension_builder** lets you kickstart extensions and build complex models with a GUI. Also writes automatic getters and setters and many, many, many more http://typo3.org/extensions/repository/view/extension_builder 
+* **ext:extension_builder** lets you kickstart extensions and build complex models with a GUI. Also writes automatic getters and setters and many, many, many more http://typo3.org/extensions/repository/view/extension_builder 
 
 ### Other resources
 
