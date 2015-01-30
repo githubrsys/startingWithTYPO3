@@ -25,6 +25,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
 #### Prerequisites - for developers
 * You should at least have read this: http://docs.typo3.org/typo3cms/ExtbaseFluidBook/2-BasicPrinciples/3-Model-View-Controller-in-Extbase.html
 * You are good advised to read the basic principles completely http://docs.typo3.org/typo3cms/ExtbaseFluidBook/2-BasicPrinciples/Index.html
+* **TYPO3 Extbase Reference** shows you the mandatory stuff http://docs.typo3.org/typo3cms/ExtbaseFluidBook/b-ExtbaseReference/Index.html
  
 ## Keep it in mind
 
