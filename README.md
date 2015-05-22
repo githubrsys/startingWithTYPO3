@@ -175,6 +175,8 @@ http://docs.typo3.org/
 http://docs.typo3.org/typo3cms/Index.html
 * **TYPO3 extension manuals** 
 http://docs.typo3.org/typo3cms/extensions/
+* **Hardening & Security in TYPO3 - Guidelines - best practice**
+http://docs.typo3.org/typo3cms/SecurityGuide/stable/GuidelinesIntegrators/
 
 #### dedicated extensions
 * **FLUIDTYPO3 documentations** 
