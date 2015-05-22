@@ -177,6 +177,9 @@ http://docs.typo3.org/typo3cms/Index.html
 http://docs.typo3.org/typo3cms/extensions/
 * **Hardening & Security in TYPO3 - Guidelines - best practice**
 http://docs.typo3.org/typo3cms/SecurityGuide/stable/GuidelinesIntegrators/
+* **Understand TYPOSCRIPT**
+- http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
+- http://docs.typo3.org/typo3cms/TyposcriptReference/singlehtml/
 
 #### dedicated extensions
 * **FLUIDTYPO3 documentations** 
