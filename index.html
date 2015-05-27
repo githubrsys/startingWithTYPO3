@@ -35,7 +35,7 @@
 <a id="howto-start-with-typo3-cms-in-2015" class="anchor" href="#howto-start-with-typo3-cms-in-2015" aria-hidden="true"><span class="octicon octicon-link"></span></a>Howto start with TYPO3 CMS in 2015</h1>
 
 <ul>
-<li>6.x Versions mentioned. Based on personal experience</li>
+<li>Based on personal experience</li>
 <li>Still valid for 7.0.x</li>
 </ul>
 
@@ -43,7 +43,7 @@
 <a id="what-this-document-does" class="anchor" href="#what-this-document-does" aria-hidden="true"><span class="octicon octicon-link"></span></a>What this document does</h2>
 
 <ul>
-<li>Shows you some basic stuff for TYPO3, how to get into it, how to handle some things and partially gives some hints for developing</li>
+<li>Shows you some basic stuff for TYPO3. How to get into it, how to handle some things and partially gives some hints for developing</li>
 <li>Does not show you basic principles of the TYPO3-CMS itself</li>
 <li>This document aims torwards newbie integrators and can be overflown also by newbie developers</li>
 <li>It has no benefitical information for editors</li>
@@ -138,7 +138,8 @@
 <li>If you come to a point where markers are mentioned like <code>###marker###</code> - read it but don´t use it. Go to FLUID</li>
 </ul>
 </li>
-<li><p>If you install extensions from <a href="http://typo3.org/extensions/repository/">TER</a>, try to use extbase versions as often as possible. Determinable as a rule of thumb: If extension has compatibility prior to 6.x TYPO3 versions the possiblity is quite high that it does not rely on extbase. </p></li>
+<li>If you want to stick to OOP paradigms, get familiar with Extbase, since this is the built in MVC framework of TYPO3. For other use cases the core offers a lot of ready made API stuff besides Extbase out of the box. So be sure to check for existing core methods before reinventing the wheel.</li>
+<li><p>If you install extensions from <a href="http://typo3.org/extensions/repository/">TER</a>, try to use current versions compatible to the latest TYPO3 versions as often as possible. Even if you go for older LTS versions of TYPO3, this will make sure to stay up to date with core upgrades in the future.</p></li>
 </ol>
 
 <ul>
