@@ -55,7 +55,8 @@ If you dig into TYPO3 you need a lot of time to understand it.
 8. Providerextension - I recommend you to write **ALWAYS ANY** code in such a -> See section [extensions](#extensions) -> ext:builder
 9. Start fiddeling around with TYPOSCRIPT and FLUID
     * If you come to a point where markers are mentioned like ``###marker###`` - read it but don´t use it. Go to FLUID
-10. If you install extensions from [TER](http://typo3.org/extensions/repository/), try to use extbase versions as often as possible. Determinable as a rule of thumb: If extension has compatibility prior to 6.x TYPO3 versions the possiblity is quite high that it does not rely on extbase. 
+10. If you want to stick to OOP paradigms, get familiar with Extbase, since this is the built in MVC framework of TYPO3. For other use cases the core offers a lot of ready made API stuff besides Extbase out of the box. So be sure to check for existing core methods before reinventing the wheel.
+11. If you install extensions from [TER](http://typo3.org/extensions/repository/), try to use current versions compatible to the latest TYPO3 versions as often as possible. Even if you go for older LTS versions of TYPO3, this will make sure to stay up to date with core upgrades in the future.
 
 * You should always know what has happened in the last versions of the cms to avoid issues with outdated documentations http://typo3.org/download/release-notes/whats-new/
 
