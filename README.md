@@ -1,10 +1,10 @@
 #Howto start with TYPO3 CMS in 2015
-* 6.x Versions mentioned. Based on personal experience
+* Based on personal experience
 * Still valid for 7.0.x
 
 ## What this document does
 
-* Shows you some basic stuff for TYPO3, how to get into it, how to handle some things and partially gives some hints for developing
+* Shows you some basic stuff for TYPO3. How to get into it, how to handle some things and partially gives some hints for developing
 * Does not show you basic principles of the TYPO3-CMS itself
 * This document aims torwards newbie integrators and can be overflown also by newbie developers
 * It has no benefitical information for editors
