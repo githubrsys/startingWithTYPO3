@@ -90,6 +90,8 @@ There a a lot of different templating methods and systems in TYPO3. I won't go i
 ## What is....
 - **What is TYPOSCRIPT**
   * Read this: http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/AppendixA/Index.html
+- **What is the TSOB - TYPOSCRIPT OBJECT BROWSER**
+  * Read this: http://docs.typo3.org/typo3cms/GettingStartedTutorial/Templates/TheObjectBrowser/Index.html
 - **Is TYPOSCRIPT mandatory**
   * No. But you are good advised to know the principles as every extension uses it more or less. If you decide to avoid TYPOSCRIPT you can use ext:fcc and ext:vhs to reach your goals. And plain extbase programming of course.
 - **What is FLUIDTYPO3**
