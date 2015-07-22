@@ -1,3 +1,6 @@
+My name is …
+Cheers from the TYPO3 Education Committee!
+
 #Howto start with TYPO3 CMS in 2015
 * Based on personal experience
 * Still valid for 7.0.x
