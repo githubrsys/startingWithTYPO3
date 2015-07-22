@@ -1,3 +1,7 @@
+> Hi, I'm rosieres from TYPO3 IRC Channel. Dealing with TYPO3 is my daily business for several years now. If you need qualified technical support or want to start a project you can reach me @ http://r-system.de (don't be scared - we just do not have the time for overhauling)
+
+##### I made this sheet for shortening the entrance into TYPO3 
+
 #Howto start with TYPO3 CMS in 2015
 * Based on personal experience
 * Still valid for 7.0.x
