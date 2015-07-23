@@ -36,6 +36,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
 * If you are new to TYPO3 keep on going but don´t get disappointed if things take long time. TYPO3 has a huge learning curve, but gives you a dramatically big, flexible and quite secure universe in content management.
 * A lot of stuff you read can be outdated. **Keep always verifying** that you read the **latest** information, howtos and snippets and that they **match** your usecase / TYPO3 Version.
 * Verify extension versions and read always the documentations to the extensions.
+* If you see a bug or a non self-explanatory documentation **start contributing immediately**. It is always welcome. And do not forget: You are using all for free, so the minimum you can do is to contribute. Your skilllevel is secondary in this moment because **every point of view has its own reason to be there**.
 
 ## Good to have
 
