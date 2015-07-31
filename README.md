@@ -4,7 +4,8 @@
 
 #Howto start with TYPO3 CMS in 2015
 * Based on personal experience
-* Still valid for 7.0.x
+* Still valid for 7.x
+* broke down to the bare minimum
 
 ## What this document does
 
@@ -74,7 +75,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
    * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
 
 * **If you are interested in programming**, go with extbase + FLUID
-   * And dive into [documentations and cheatsheet section](#Documentations)
+   * And dive into [documentations and cheatsheet section](#documentations)
  
 
 ### Templating
