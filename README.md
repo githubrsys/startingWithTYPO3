@@ -74,10 +74,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
    * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
 
 * **If you are interested in programming**, go with extbase + FLUID
-   * [Reserved-folders](http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/FilesAndLocations/Index.html#extension-reserved-folders) is a good start *before* reading the [extbase book](http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/). Then you are good advised to build a providerextension and try to adopt working scenarios from existing extbase extensions. That's the fastest way to dig into it extbase.
-   * **TYPO3 Extbase Reference** shows you the mandatory stuff http://docs.typo3.org/typo3cms/ExtbaseFluidBook/b-ExtbaseReference/Index.html
-   * Also mentionworth http://vosp.info/index.php/Typo3_Extensions_entwickeln
-    * **Extbase: Query and Repository Overview / Cheatsheet**  http://lbrmedia.net/codebase/Eintrag/extbase-query-methods/
+   * And dive into documentations and cheatsheet section
  
 
 ### Templating
@@ -197,12 +194,16 @@ https://github.com/FluidTYPO3/documentation
 * **FLUIDTYPO3 ext:vhs and FLUID viewhelper reference** 
 https://fluidtypo3.org/viewhelpers/
 
-#### for developing
+#### for developing + cheatsheets
 * **TYPO3 API Reference** helps you to understand principles
 http://docs.typo3.org/typo3cms/CoreApiReference
 * **TYPO3 API Documentation** shows you all available classes and functions within the CMS API
 http://typo3.org/documentation/api/
-* **TYPO3 Extbase Reference** shows you the mandatory stuff http://docs.typo3.org/typo3cms/ExtbaseFluidBook/b-ExtbaseReference/Index.html
+* [Reserved-folders](http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/FilesAndLocations/Index.html#extension-reserved-folders) is a good start *before* reading the [extbase book](http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/). Then you are good advised to build a providerextension and try to adopt working scenarios from existing extbase extensions. That's the fastest way to dig into it extbase.
+   * **TYPO3 Extbase Reference** shows you the mandatory stuff http://docs.typo3.org/typo3cms/ExtbaseFluidBook/b-ExtbaseReference/Index.html
+   * Also mentionworth http://vosp.info/index.php/Typo3_Extensions_entwickeln
+    * **Extbase: Query and Repository Overview / Cheatsheet**  http://lbrmedia.net/codebase/Eintrag/extbase-query-methods/
+    * **Extbase & Fluid: Cheatsheet** http://www.lobacher.de/files/cs/ExtbaseFluidCheatSheet_3.02_pluswerk.pdf
 
 ### Extensions 
 
