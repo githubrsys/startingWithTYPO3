@@ -73,11 +73,13 @@ If you dig into TYPO3 you need a lot of time to understand it.
 * This is what you need as bookmark for TYPOSCRIPT in any case 
    * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
 
-* If you are interested in programming, go with extbase + FLUID
+* **If you are interested in programming**, go with extbase + FLUID
    * [Reserved-folders](http://docs.typo3.org/typo3cms/CoreApiReference/ExtensionArchitecture/FilesAndLocations/Index.html#extension-reserved-folders) is a good start *before* reading the [extbase book](http://docs.typo3.org/typo3cms/ExtbaseFluidBook/singlehtml/). Then you are good advised to build a providerextension and try to adopt working scenarios from existing extbase extensions. That's the fastest way to dig into it extbase.
    * **TYPO3 Extbase Reference** shows you the mandatory stuff http://docs.typo3.org/typo3cms/ExtbaseFluidBook/b-ExtbaseReference/Index.html
    * Also mentionworth http://vosp.info/index.php/Typo3_Extensions_entwickeln
-    
+    * **Extbase: Query and Repository Overview / Cheatsheet**  http://lbrmedia.net/codebase/Eintrag/extbase-query-methods/
+ 
+
 ### Templating
  
 There a a lot of different templating methods and systems in TYPO3. I won't go into details here. These days FLUID is the recommended way. It´s extremely powerful and gives you great flexibility. Forget what you ever heard. If someone sais "fluid is odd" - this person has no idea of it´s capabilities and what benefits it is giving to you.
