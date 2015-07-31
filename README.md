@@ -74,7 +74,7 @@ If you dig into TYPO3 you need a lot of time to understand it.
    * http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/singlehtml/
 
 * **If you are interested in programming**, go with extbase + FLUID
-   * And dive into documentations and cheatsheet section
+   * And dive into [documentations and cheatsheet section](#Documentations)
  
 
 ### Templating
