@@ -161,10 +161,13 @@ This section has to be done one day. Here just the topics that are taken into ac
     * http://lists.typo3.org/ 
 * **Forum** - Hint: Search the forum like [this](https://www.google.de/#q=site:forum.typo3.org+searchwords) 
     * http://forum.typo3.org/ 
-* **IRC - Internet relay chat** Hint: Search the typo3 irc like [this](https://www.google.de/#q=site:riesvantwisk.com+typo3+IRC+Log+searchwords) and the fluidtypo3 irc like [this](https://fluidtypo3.org/search.html?q=foo)
-typo3 && fedext channel on freenode.net 
 * **Forge | bugs and useful info for extensions** 
 http://forge.typo3.org/projects
+* **Forger** https://forger.typo3.org It basically provides an intuitive interface to filter reviews and shows some statistics based on forge 
+* **Slack** The Slack tool is also used by plenty of other teams around the TYPO3 ecosphere so it is easier to interconnect teams. If you want to join the Slack team, please register at http://forger.typo3.org/slack/.
+Then join http://typo3.slack.com/ and our channel #typo3-cms
+* **IRC - Internet relay chat** Hint: Search the typo3 irc like [this](https://www.google.de/#q=site:riesvantwisk.com+typo3+IRC+Log+searchwords) and the fluidtypo3 irc like [this](https://fluidtypo3.org/search.html?q=foo)
+typo3 && fedext channel on freenode.net 
 
 ### Tools
 
@@ -205,6 +208,11 @@ http://typo3.org/documentation/api/
    * Also mentionworth http://vosp.info/index.php/Typo3_Extensions_entwickeln
     * **Extbase: Query and Repository Overview / Cheatsheet**  http://lbrmedia.net/codebase/Eintrag/extbase-query-methods/
     * **Extbase & Fluid: Cheatsheet** http://www.lobacher.de/files/cs/ExtbaseFluidCheatSheet_3.02_pluswerk.pdf
+
+### Contribute / Patch / Bugfix
+If you want to contribute, there are several ways
+* **Core** https://wiki.typo3.org/Contribution_Walkthrough_Tutorials
+* **Extensions** Depends on the Extension. See docs of extension if forge.typo3.org, github.com, git.typo3.org or other resource
 
 ### Extensions 
 
